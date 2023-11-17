@@ -19,12 +19,14 @@ spec:
     spec:
       containers:
         - name: karsajobs
-          image: ghcr.io/jaygung17/karsajobs:latest
+          image: ghcr.io/mueiya/karsajobs:latest
+          ports:
+            - containerPort: 8080
           env:
             - name: APP_PORT
-              value: "8000"
+              value: "8080"
             - name: MONGO_HOST
-              value: karsajobs-db
+              value: mongo-service
             - name: MONGO_USER
               valueFrom:
                 secretKeyRef:
