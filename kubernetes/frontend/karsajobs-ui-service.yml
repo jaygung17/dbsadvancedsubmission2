@@ -3,10 +3,12 @@ kind: Service
 metadata:
   name: karsajobs-ui-service
   labels:
-    app: karsajobs-ui
+    app: karsajobs
+    tier: frontend
 spec:
   selector:
-    app: karsajobs-ui
+    app: karsajobs
+    tier: frontend
   ports:
     - protocol: "TCP"
       port: 8080
