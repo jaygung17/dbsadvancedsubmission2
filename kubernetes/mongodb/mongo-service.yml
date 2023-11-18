@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     app: karsajobs
-    tier: backend
+    tier: database
   ports:
     - protocol: TCP
       port: 27017
