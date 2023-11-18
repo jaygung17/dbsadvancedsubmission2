@@ -1,0 +1,6 @@
+github package 
+ghcr.io/jaygung17/karsajobs:latest
+https://github.com/users/jaygung17/packages/container/package/karsajobs
+
+ghcr.io/jaygung17/karsajobsui:latest
+https://github.com/users/jaygung17/packages/container/package/karsajobsui

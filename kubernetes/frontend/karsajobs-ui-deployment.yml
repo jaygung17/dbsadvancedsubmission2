@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: karsajobs-ui
-          image: ghcr.io/jaygung17/karsajobsui:latest
+          image: ghcr.io/jaygung17/karsajobs-ui-update:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 8000

@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: karsajobs
-          image: ghcr.io/mueiya/karsajobs:latest
+          image: ghcr.io/jaygung17/karsajobs-update:latest
           ports:
             - containerPort: 8080
           env:

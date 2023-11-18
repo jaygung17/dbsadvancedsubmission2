@@ -4,19 +4,19 @@ metadata:
   name: karsajobs-db
   labels:
     app: karsajobs
-    tier: backend
+    tier: database
 spec:
   serviceName: karsajobs-db
   replicas: 1
   selector:
     matchLabels:
       app: karsajobs
-      tier: backend
+      tier: database
   template:
     metadata:
       labels:
         app: karsajobs
-        tier: backend
+        tier: database
     spec:
       containers:
         - name: mongo
